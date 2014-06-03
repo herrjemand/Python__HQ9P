@@ -2,7 +2,7 @@ def hq9p(c):
 	"""
 	HQ9+
 	By Herr Niemand 2014 
-	Version 1.0
+	Version 1.1
 	Origin: https://github.com/herrniemand/Python__HQ9P
 
 	arguments:
@@ -26,4 +26,3 @@ def hq9p(c):
 					print(x + 'No bottles of beer on the wall.\n\n')
 					print('No bottles of beer on the wall,\nNo bottles of beer.\nGo to the store, buy some more,\n99 bottles of beer on the wall...\n\n')
 		elif i == '+': mem += 1 #Jep. No point this line holds.
-hq9p('9')
