@@ -20,7 +20,10 @@ def hq9p(c):
 		elif i == 'Q': print(c)
 		elif i == '9':
 			for i in range(98, -1,-1):
-				x = str(i + 1) + ' bottles of beer on the wall, ' + str(i + 1) + ' bottles of beer. Take one down, pass it around, '
-				if i: print(x + str(i) + ' bottles of beer on the wall.')
-				else: print(x + 'No bottles of beer on the wall.')
+				x = str(i + 1) + ' bottles of beer on the wall,\n' + str(i + 1) + ' bottles of beer.\nTake one down, pass it around,\n'
+				if i: print(x + str(i) + ' bottles of beer on the wall.\n\n')
+				else: 
+					print(x + 'No bottles of beer on the wall.\n\n')
+					print('No bottles of beer on the wall,\nNo bottles of beer.\nGo to the store, buy some more,\n99 bottles of beer on the wall...\n\n')
 		elif i == '+': mem += 1 #Jep. No point this line holds.
+hq9p('9')
